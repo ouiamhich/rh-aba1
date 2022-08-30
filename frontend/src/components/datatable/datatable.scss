@@ -1,0 +1,112 @@
+.datatable {
+  height: 600px;
+  padding: 20px;
+
+  .datagrid {
+    font-size: 12px;
+  }
+
+  .cellWithImg {
+    display: flex;
+    align-items: center;
+
+    .cellImg {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+  }
+  .cellWithStatus {
+    padding: 5px;
+    border-radius: 5px;
+
+    &.Employee {
+      color: #509ad8;
+    }
+    &.intern {
+      color: #ff8a00;
+    }
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .datatableTitle {
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .link {
+      text-decoration: none;
+      background-color: rgb(17, 17, 231);
+      color: white;
+      font-size: 16px;
+      font-weight: 400;
+      border: 1px solid rgb(62, 62, 250);
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(97, 97, 245);
+      }
+    }
+    .cellWithImg {
+      display: flex;
+      align-items: center;
+
+      .cellImg {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .cellAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .icon {
+      cursor: pointer;
+    }
+  }
+}
+
+.progress {
+  width: 200px;
+}
+
+.formGroup {
+  display: flex;
+  justify-content: space-between;
+}
+.modalFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.stepper {
+  padding: 20px;
+}
+
+.buttonForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+}

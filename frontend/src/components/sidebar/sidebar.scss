@@ -1,0 +1,109 @@
+.sidebar{   
+    flex: 1;
+    border-right: 0.5px solid Rgb(231, 228, 228);
+    min-height: 100vh;
+    background-color: white;
+
+    .top{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+
+       .logoImg{
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        
+      
+       
+       }
+    }
+
+    hr{
+        height: 0px;
+        border: 0.5px solid rgb(231, 228, 228);
+    }
+
+    .center{
+        padding: 10px;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            .title {
+                font-size: 10px;
+                font-weight: bold;
+                color: #999;
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }  
+
+              li {
+                display: flex;
+                align-items: center;
+                padding: 10px;
+                cursor: pointer;
+                
+        
+                &:hover {
+                  background-color: #F1F9FF;
+                  border-radius: 10px;
+                  .icon{
+                    color:#509AD8 ;
+                  }
+                  span{
+                    color:#509AD8 ;
+                  }
+                  
+                }
+        
+                .icon {
+                  font-size: 18px;
+                  color: #838696;
+                 
+                }
+                span{
+                    font-size: 12px;
+                    font-weight: 600;
+                    color: #838696;
+                    margin-left: 10px;
+                    
+    
+                }
+        
+        }
+
+    }
+
+}
+    .bottom{
+        display: flex;
+        align-items: center;
+        
+        margin: 10px; 
+        
+        .colorOption{
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid #A31F36;
+            cursor: pointer;
+            margin: 10px;
+            
+  
+            &:nth-child(1){
+                background-color: whitesmoke;
+            }
+            &:nth-child(2){
+                background-color: #333;
+            }
+            
+        }
+    }
+}
